@@ -4,7 +4,7 @@
   "description": "Simple Math",
   "main": "index.js",
   "scripts": {
-    "test": "node test\\script.js"
+    "test": "node test/script.js"
   },
   "repository": {
     "type": "git",
