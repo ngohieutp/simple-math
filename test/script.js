@@ -1,2 +1,2 @@
-const simpleMath = require('simple-math')
-console.log(simpleMath.add(1,2));
+const simpleMath = require('simple-math-calcv1')
+console.log(simpleMath.total(1,2));

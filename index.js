@@ -1,22 +1,9 @@
-function sum(a, b) {
-  return a + b;
-}
+var ops = require('simple-calc-ops');
 
-function minus(a, b) {
-  return a - b;
-}
-
-function mul(a, b) {
-  return a * b;
-}
-
-function div(a, b) {
-  return a / b;
+function total(a, b) {
+  return ops.sum(a, b);
 }
 
 module.exports = {
-	sum,
-	minus,
-	mul,
-	div
+  total
 }
